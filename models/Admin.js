@@ -1,5 +1,7 @@
 const Sequelize = require('sequelize');
 const config = require('./../config');
+// const bcrypt = require('bcrypt');
+// const saltRounds = 10;
 
 const Admin = config.define('admin',{
 	id:{
